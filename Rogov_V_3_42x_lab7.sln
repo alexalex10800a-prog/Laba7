@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36511.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rogov_V_3_42x_lab7", "Rogov_V_3_42x_lab7\Rogov_V_3_42x_lab7.csproj", "{A9E58CFA-4D3C-49AD-A091-483AB0CE45FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL7", "BLL7\BLL7.csproj", "{5DD42A29-DAA3-48A2-BEAB-CDDBA953A38C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL7", "DAL7\DAL7.csproj", "{3FF94EF0-744B-4BE7-970D-509E3E62A571}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9E58CFA-4D3C-49AD-A091-483AB0CE45FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9E58CFA-4D3C-49AD-A091-483AB0CE45FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9E58CFA-4D3C-49AD-A091-483AB0CE45FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9E58CFA-4D3C-49AD-A091-483AB0CE45FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DD42A29-DAA3-48A2-BEAB-CDDBA953A38C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DD42A29-DAA3-48A2-BEAB-CDDBA953A38C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DD42A29-DAA3-48A2-BEAB-CDDBA953A38C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DD42A29-DAA3-48A2-BEAB-CDDBA953A38C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FF94EF0-744B-4BE7-970D-509E3E62A571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FF94EF0-744B-4BE7-970D-509E3E62A571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FF94EF0-744B-4BE7-970D-509E3E62A571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FF94EF0-744B-4BE7-970D-509E3E62A571}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C144C2D4-EC42-44EC-8BA0-07A45A014CB3}
+	EndGlobalSection
+EndGlobal
