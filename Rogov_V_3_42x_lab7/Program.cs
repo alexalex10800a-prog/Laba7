@@ -1,12 +1,15 @@
-﻿using System;
+﻿using BLL7;
+using BLL7.Interface;
+using MongoDB.Driver.Core.Configuration;
+using Ninject;
+using Rogov_V_3_42x_lab7.Util;
+using System;
 using System.Collections.Generic;
+using System.Configuration;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Ninject;
-using BLL7;
-using BLL7.Interface;
-using Rogov_V_3_42x_lab7.Util;
 namespace Rogov_V_3_42x_lab7
 {
     internal static class Program
@@ -17,8 +20,9 @@ namespace Rogov_V_3_42x_lab7
         [STAThread]
         static void Main()
         {
-
-            var kernel = new StandardKernel(new NinjectRegistrations(), new ServiceModule("Model1"));
+            string connection = ConfigurationManager.ConnectionStrings["MongoDB_lab7"].ConnectionString;
+            Debug.WriteLine($"Using connection string: {connection}");
+            var kernel = new StandardKernel(new NinjectRegistrations(), new ServiceModule(connection));
 
             IDbCrud crudServ = kernel.Get<IDbCrud>();
             IReportService reportService = kernel.Get<IReportService>();

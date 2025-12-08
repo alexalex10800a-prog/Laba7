@@ -154,13 +154,24 @@
     <Compile Include="Model1.cs" />
     <Compile Include="Entities\participation.cs" />
     <Compile Include="Entities\project.cs" />
+    <Compile Include="MongoConfig.cs" />
     <Compile Include="MongoDB.cs" />
+    <Compile Include="MongoEntityConfig.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Entities\specialty.cs" />
     <Compile Include="Repositories\ContractRepositorySQL.cs" />
     <Compile Include="Repositories\DBReposSQL.cs" />
     <Compile Include="Repositories\DepartmentRepositorySQL.cs" />
     <Compile Include="Repositories\EmployeeRepositorySQL.cs" />
+    <Compile Include="Repositories\MongoDB\ContractRepositoryMongo.cs" />
+    <Compile Include="Repositories\MongoDB\DbReposMongo.cs" />
+    <Compile Include="Repositories\MongoDB\DepartmentRepositoryMongo.cs" />
+    <Compile Include="Repositories\MongoDB\EmployeeRepositoryMongo.cs" />
+    <Compile Include="Repositories\MongoDB\MongoRepository.cs" />
+    <Compile Include="Repositories\MongoDB\ParticipationRepositoryMongo.cs" />
+    <Compile Include="Repositories\MongoDB\ProjectRepositoryMongo.cs" />
+    <Compile Include="Repositories\MongoDB\ReportRepositoryMongo.cs" />
+    <Compile Include="Repositories\MongoDB\SpecialtyRepositoryMongo.cs" />
     <Compile Include="Repositories\ParticipationRepositorySQL.cs" />
     <Compile Include="Repositories\ProjectRepositorySQL.cs" />
     <Compile Include="Repositories\ReportRepositorySQL.cs" />
@@ -170,8 +181,6 @@
     <None Include="App.Config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Repositories\MongoDB\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

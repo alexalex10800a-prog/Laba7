@@ -17,6 +17,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using YourProject.BLL7.Services;
 using BLL7.Interface;
+
 namespace Rogov_V_3_42x_lab7
 {
 
@@ -43,6 +44,7 @@ namespace Rogov_V_3_42x_lab7
             LoadAllData();
 
         }
+        
         private void LoadAllData()
         {
             // Load lookup data first
